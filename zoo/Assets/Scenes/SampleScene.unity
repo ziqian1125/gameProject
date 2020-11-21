@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf52003f8765c74bb2456aeb5a8d8a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 5
   jumpSpeed: 5
 --- !u!1 &198289603
 GameObject:
@@ -682,6 +682,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -697,6 +698,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d798c2f7b42b548c4aef2c365ff5c7cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  followObject: {fileID: 31333540}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -1401,6 +1415,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95b644248da594b7681561a670220bad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftpoint: {fileID: 0}
+  rightpoint: {fileID: 0}
+  Speed: 0
 --- !u!61 &1053242294
 BoxCollider2D:
   m_ObjectHideFlags: 0
