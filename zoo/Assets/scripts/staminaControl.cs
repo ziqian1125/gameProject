@@ -25,8 +25,6 @@ public class staminaControl : MonoBehaviour
             print(stamina.text.GetType());
             staminaNum=int.Parse(stamina.text)-1;
             stamina.text = staminaNum.ToString();
-
-
             //do stuff
         }       
         
