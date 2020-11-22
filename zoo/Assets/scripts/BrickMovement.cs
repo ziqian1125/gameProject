@@ -13,7 +13,8 @@ public class BrickMovement : MonoBehaviour
     void Start()
     {
         brick = this.GetComponent<Rigidbody2D>();
-        brick.velocity = new Vector2(0, -speed * Time.deltaTime);
+        brick.velocity = new Vector2(0, -speed);
+        brick.drag = 3;
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
         
     }
