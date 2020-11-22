@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 31333542}
   - component: {fileID: 31333543}
   - component: {fileID: 31333544}
+  - component: {fileID: 31333545}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -303,6 +304,19 @@ MonoBehaviour:
   Cherry: 0
   pill: 0
   health: {fileID: 112911614}
+  stamina: {fileID: 2022266057}
+--- !u!114 &31333545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31333537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f145ab1ac0046cb83644e74620d23e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   stamina: {fileID: 2022266057}
 --- !u!224 &69412781 stripped
 RectTransform:
@@ -2778,7 +2792,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d3e3195585ea4f76ac12e2ed02c5108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enter: {fileID: 1157288244}
 --- !u!61 &1841722469
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3028,7 +3041,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -226, y: 161.3}
+  m_AnchoredPosition: {x: -228.3, y: 161.8}
   m_SizeDelta: {x: 40, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022266057
