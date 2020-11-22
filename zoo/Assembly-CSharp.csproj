@@ -55,8 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\cameracontrol.cs" />
-     <Compile Include="Assets\enterDialog.cs" />
      <Compile Include="Assets\move.cs" />
      <Compile Include="Assets\scripts\BrickMovement.cs" />
      <Compile Include="Assets\scripts\CountdownTimer.cs" />
@@ -64,6 +62,9 @@
      <Compile Include="Assets\scripts\PlayerMovement.cs" />
      <Compile Include="Assets\scripts\SpawnBrick.cs" />
      <Compile Include="Assets\scripts\brickHits.cs" />
+     <Compile Include="Assets\scripts\cameracontrol.cs" />
+     <Compile Include="Assets\scripts\collectfood.cs" />
+     <Compile Include="Assets\scripts\enterDialog.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
