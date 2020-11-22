@@ -65,6 +65,7 @@
      <Compile Include="Assets\scripts\cameracontrol.cs" />
      <Compile Include="Assets\scripts\collectfood.cs" />
      <Compile Include="Assets\scripts\enterDialog.cs" />
+     <Compile Include="Assets\scripts\healthControl.cs" />
      <Compile Include="Assets\scripts\staminaControl.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
