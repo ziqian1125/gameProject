@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Collection
+  - pills
   layers:
   - Default
   - TransparentFX

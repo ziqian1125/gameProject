@@ -7,12 +7,16 @@ public class collectfood : MonoBehaviour
 {
     // Start is called before the first frame update
     public int Cherry = 1;
+    public int pill = 0;
+
     public Text health; 
+    public Text stamina; 
 
 
     void Start()
     {
         health.text = "3";
+        stamina.text = "3";
     }
 
     // Update is called once per frame
@@ -26,7 +30,12 @@ public class collectfood : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Cherry += 1;
-            health.text = (3+Cherry).ToString();
+            stamina.text = (3+Cherry).ToString();
+        }else if(collision.tag == "pills")
+        {
+            Destroy(collision.gameObject);
+            pill += 1;
+            health.text = (3 + pill).ToString();
         }
     } 
 }
