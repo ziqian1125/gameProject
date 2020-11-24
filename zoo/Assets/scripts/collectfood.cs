@@ -28,11 +28,13 @@ public class collectfood : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "Collection")
         {
+            SoundManagerScript.PlaySound("fireworks");
             Destroy(collision.gameObject);
             Cherry += 1;
             stamina.text = (3+Cherry).ToString();
         }else if(collision.tag == "pills")
         {
+            SoundManagerScript.PlaySound("coins");
             Destroy(collision.gameObject);
             pill += 1;
             health.text = (3 + pill).ToString();
