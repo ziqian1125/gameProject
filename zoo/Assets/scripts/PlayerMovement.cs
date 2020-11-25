@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Animator charAnim;
     [SerializeField] private float moveSpeed;
-    // public float runSpeed;
+    public float runSpeed;
     [SerializeField] private float jumpSpeed;
     // idle = 0, walking = 1, jumping = 2 , etc
     private enum State {idle, walking, jumping, falling, running};
@@ -20,7 +20,10 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         charAnim = GetComponent<Animator>();
-        coll = GetComponent<Collider2D>(); 
+        coll = GetComponent<Collider2D>();
+
+        moveSpeed = 2f;
+        runSpeed = 4f;
     }
 
     // Update is called once per frame
@@ -35,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(animState == State.jumping)
         {
-            if(rb.velocity.y < 0.1f)
+            if(rb.velocity.y < -0.5f)
             {
                 animState = State.falling;
             }
@@ -49,16 +52,22 @@ public class PlayerMovement : MonoBehaviour
             }
         }
        
-        else if(Mathf.Abs(rb.velocity.x) > Mathf.Epsilon)
+        else if (Mathf.Abs(rb.velocity.x) > 1.8f)
         {
+            if (Mathf.Abs(rb.velocity.x) > 3f)
+             {
+                 //running
+                 animState = State.running;
+             }
+
+             else
+             {
             //moving
             animState = State.walking;
+          }
         }
 
-        /* else if(rb.velocity.x < 0.1f)
-         {
-             //Going Left
-         }*/
+      
 
         else
         {
@@ -71,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //Player Input for for movement
         float horDir = Input.GetAxis("Horizontal");
-
+ 
         //direction
         if (horDir < 0)
         { //left
@@ -92,9 +101,16 @@ public class PlayerMovement : MonoBehaviour
             animState = State.jumping;
         }
 
-        /*while (Input.GetKey(KeyCode.LeftShift))
+        if(Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = runSpeed;
-        }*/
+        }
+
+        else
+        {
+            moveSpeed = 2f;
+        }
+
+      
     }
 }

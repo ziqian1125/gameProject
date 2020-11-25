@@ -8,7 +8,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 3
+  - m_ConditionMode: 6
     m_ConditionEvent: state
     m_EventTreshold: 4
   m_DstStateMachine: {fileID: 0}
@@ -115,7 +115,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 856117227166566294}
-    m_Position: {x: 30, y: 250, z: 0}
+    m_Position: {x: 20, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8938151386081777475}
     m_Position: {x: 30, y: 110, z: 0}
@@ -124,10 +124,10 @@ AnimatorStateMachine:
     m_Position: {x: 320, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -755899602979327972}
-    m_Position: {x: 320, y: 250, z: 0}
+    m_Position: {x: 320, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8131261030240094295}
-    m_Position: {x: -220, y: 110, z: 0}
+    m_Position: {x: -210, y: -50, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -386,7 +386,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -709,7 +709,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: R_run_Anim
-  m_Speed: 1
+  m_Speed: 5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 8623812097958273201}
