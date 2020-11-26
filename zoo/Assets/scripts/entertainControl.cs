@@ -25,7 +25,7 @@ public class entertainControl : MonoBehaviour
         if (counttime!=15)
         {
             counttime = counttime+1;
-            print(counttime);
+            // print(counttime);
         }else{
             counttime = 0;
             

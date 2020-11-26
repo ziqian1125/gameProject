@@ -28,7 +28,11 @@ public class healthControl : MonoBehaviour
 
     public void healthReduce()
     {
-        healthNum = int.Parse(health.text) - 1;
-        health.text = healthNum.ToString();
+        if (health.text!="0")
+        {
+           healthNum = int.Parse(health.text) - 1;
+           health.text = healthNum.ToString();         
+        }
+
     }
 }

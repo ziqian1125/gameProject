@@ -17,14 +17,22 @@ public class staminaControl : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
 
-        if (Input.GetKeyUp(KeyCode.X))
+    {
+        if (stamina.text=="0")
         {
-            // print("hello world");
-            print(stamina.text.GetType());
-            staminaNum=int.Parse(stamina.text)-1;
-            stamina.text = staminaNum.ToString();
+           print("die"); 
+        }
+
+        if (Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D))
+        {
+            if (stamina.text!="0")
+            {
+                print("stamina is depleted "); 
+                // print(stamina.text.GetType());
+                staminaNum=int.Parse(stamina.text)-1;
+                stamina.text = staminaNum.ToString();  
+            }
             //do stuff
         }       
         
