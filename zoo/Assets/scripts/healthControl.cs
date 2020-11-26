@@ -23,13 +23,12 @@ public class healthControl : MonoBehaviour
         {
            print("die"); 
         }
-
-    if (Input.GetKeyUp(KeyCode.V))
-        {
-            healthNum=int.Parse(health.text)-1;
-            health.text = healthNum.ToString();
-        }  
+ 
     }
 
- 
+    public void healthReduce()
+    {
+        healthNum = int.Parse(health.text) - 1;
+        health.text = healthNum.ToString();
+    }
 }

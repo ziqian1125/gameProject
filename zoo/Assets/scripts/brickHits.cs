@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class brickHits : MonoBehaviour
 {
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Player is hit with brick!");
+        if (other.tag == "Player")
+        {
+            Debug.Log("Player is hit with brick!");
+            GameObject.Find("Player").GetComponent<healthControl>().healthReduce();
+        }
     }
 }
