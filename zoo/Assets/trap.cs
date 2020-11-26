@@ -26,7 +26,8 @@ public class trap : MonoBehaviour
         if (collision.tag == "trap"){
             print("l jump on trap");
             healthNum=int.Parse(health.text)-1;
-            health.text = healthNum.ToString();  
+            health.text = healthNum.ToString(); 
+            SoundManagerScript.PlaySound("clap");
         }
     } 
 }
