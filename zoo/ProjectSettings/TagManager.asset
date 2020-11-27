@@ -9,6 +9,8 @@ TagManager:
   - ground
   - garbage
   - trap
+  - entertainment
+  - hi
   layers:
   - Default
   - TransparentFX
