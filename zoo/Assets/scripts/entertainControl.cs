@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class entertainControl : MonoBehaviour
@@ -50,6 +51,8 @@ public class entertainControl : MonoBehaviour
         if (entertain.text=="0")
             {
                 print("catch"); 
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+
             }
 
         if (Input.GetKeyUp(KeyCode.C))

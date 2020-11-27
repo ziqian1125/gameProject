@@ -67,6 +67,10 @@
      <Compile Include="Assets\scripts\brickHits.cs" />
      <Compile Include="Assets\scripts\cameracontrol.cs" />
      <Compile Include="Assets\scripts\collectfood.cs" />
+     <Compile Include="Assets\scripts\different ending\go0happyend.cs" />
+     <Compile Include="Assets\scripts\different ending\go0healthEnd.cs" />
+     <Compile Include="Assets\scripts\different ending\go0timeend.cs" />
+     <Compile Include="Assets\scripts\different ending\gosuccessend.cs" />
      <Compile Include="Assets\scripts\enterDialog.cs" />
      <Compile Include="Assets\scripts\entertainControl.cs" />
      <Compile Include="Assets\scripts\healthControl.cs" />

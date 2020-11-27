@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class healthControl : MonoBehaviour
 {
@@ -22,6 +22,7 @@ public class healthControl : MonoBehaviour
     if (health.text=="0")
         {
            print("die"); 
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
         }
  
     }
