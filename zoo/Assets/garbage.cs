@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class garbage : MonoBehaviour
 {
+    private Rigidbody2D rb;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,8 @@ public class garbage : MonoBehaviour
 
         if (collision.tag == "garbage"){
             print("l jump on garbage");
+            transform.position = new Vector3(transform.position.x-1,transform.position.y,0);
+
         }
     } 
 
