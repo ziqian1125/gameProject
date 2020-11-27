@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject Ebutton;
     private Rigidbody2D rb;
     private Animator charAnim;
     [SerializeField] private float moveSpeed;
     public float runSpeed;
     [SerializeField] private float jumpSpeed;
     // idle = 0, walking = 1, jumping = 2 , etc
-    private enum State {idle, walking, jumping, falling, running};
+    private enum State {idle, walking, jumping, falling, running, dancing};
     private State animState = State.idle;
     private Collider2D coll;
     [SerializeField] private LayerMask ground;
@@ -24,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
         moveSpeed = 2f;
         runSpeed = 4f;
+        Ebutton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -111,6 +114,25 @@ public class PlayerMovement : MonoBehaviour
             moveSpeed = 2f;
         }
 
+        if(Input.GetKeyDown(KeyCode.E) && Ebutton.active)
+        {
+            // Debug.Log("Detected");
+            animState = State.dancing;
+        }
+
       
     }
+
+    private void OnTriggerEnter2D(Collider2D Collider)
+    {
+        // Debug.Log("Hit");
+        Ebutton.SetActive(true);
+    }
+
+    private void OnTriggerExit2D(Collider2D Collider)
+    {
+        // Debug.Log("Hit");
+        Ebutton.SetActive(false);
+    }
+
 }
