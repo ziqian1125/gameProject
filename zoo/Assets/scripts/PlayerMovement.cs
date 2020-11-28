@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private State animState = State.idle;
     private Collider2D coll;
     [SerializeField] private LayerMask ground;
+    private int jumpcount;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         moveSpeed = 2f;
         runSpeed = 4f;
         Ebutton.SetActive(false);
+       jumpcount = 0;
     }
 
     // Update is called once per frame
@@ -69,13 +71,18 @@ public class PlayerMovement : MonoBehaviour
             animState = State.walking;
           }
         }
-
-      
+        else if (Input.GetKey(KeyCode.E) && Ebutton.active)
+        {
+            //  Debug.Log("Detected");
+            animState = State.dancing;
+        }
 
         else
         {
             animState = State.idle;
         }
+
+
 
     }   
 
@@ -97,14 +104,26 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
             transform.localScale = new Vector2(0.4f, 0.4f);
         }
+       
 
-        if (Input.GetButtonDown("Jump") && coll.IsTouchingLayers(ground))
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            animState = State.jumping;
+       if (Input.GetButtonDown("Jump") && jumpcount<1)
+            {
+             jumpcount++;
+             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+             animState = State.jumping; 
+
+           
         }
 
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (coll.IsTouchingLayers(ground))
+        {
+            jumpcount = 0;
+            Debug.Log("Jumpcount is" + jumpcount);
+        }
+
+
+
+        if (Input.GetKey(KeyCode.LeftShift))
         {
             moveSpeed = runSpeed;
         }
@@ -114,25 +133,29 @@ public class PlayerMovement : MonoBehaviour
             moveSpeed = 2f;
         }
 
-        if(Input.GetKeyDown(KeyCode.E) && Ebutton.active)
-        {
-            // Debug.Log("Detected");
-            animState = State.dancing;
-        }
-
       
+
+
     }
 
     private void OnTriggerEnter2D(Collider2D Collider)
     {
-        // Debug.Log("Hit");
-        Ebutton.SetActive(true);
+        if (Collider.gameObject.tag == "pole")
+        {
+            // Debug.Log("Hit");
+            Ebutton.SetActive(true);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D Collider)
     {
-        // Debug.Log("Hit");
-        Ebutton.SetActive(false);
+        if (Collider.gameObject.tag == "pole")
+        {
+            // Debug.Log("Hit");
+            Ebutton.SetActive(false);
+        }
     }
+
+   
 
 }
