@@ -13,6 +13,7 @@ TagManager:
   - hi
   - pole
   - rope
+  - ropetop
   layers:
   - Default
   - TransparentFX
