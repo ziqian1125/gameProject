@@ -8,19 +8,22 @@ public class PlayerMovement : MonoBehaviour
     
     private Rigidbody2D rb;
     private Animator charAnim;
-    [SerializeField] private float moveSpeed;
-    public float runSpeed;
-    [SerializeField] private float jumpSpeed;
- 
+    private float moveSpeed;
+    private float runSpeed;
+    private float jumpSpeed;
+    private float climbSpeed;
+    private int jumpcount;
+
     // idle = 0, walking = 1, jumping = 2 , etc
-    private enum State {idle, walking, jumping, falling, running, dancing, climbing};
-    private State animState = State.idle;
+    public enum State {idle, walking, jumping, falling, running, dancing, climbing, hiding};
+    public State animState = State.idle;
     private Collider2D coll;
     [SerializeField] private LayerMask ground;
-    private int jumpcount;
+    
 
     public GameObject Ebutton;
     public GameObject Cbutton;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,11 +31,14 @@ public class PlayerMovement : MonoBehaviour
         charAnim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
 
-        moveSpeed = 2f;
-        runSpeed = 4f;
+        moveSpeed = 6f;
+        runSpeed = 8f;
+        jumpSpeed = 6f;
+        climbSpeed = 3f;
+        jumpcount = 0;
+
         Ebutton.SetActive(false);
         Cbutton.SetActive(false);
-        jumpcount = 0;
     }
 
     // Update is called once per frame
@@ -59,6 +65,8 @@ public class PlayerMovement : MonoBehaviour
             {
                 animState = State.idle;
             }
+           
+          
         }
        
         else if (Mathf.Abs(rb.velocity.x) > 1.8f)
@@ -77,16 +85,30 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.E) && Ebutton.active)
         {
-            //  Debug.Log("Detected");
+            //Test
+            //Debug.Log("Detected");
             animState = State.dancing;
-         
-        }
-        else if (Input.GetKey(KeyCode.C) && Cbutton.active)
-        {
-            //  Debug.Log("Detected");
-            animState = State.climbing;
-            //moveup code here
+            moveSpeed = 0f;
 
+        }
+        else if (Input.GetKey(KeyCode.F) && Cbutton.active)
+        {
+            //Test
+            //Debug.Log("Detected");
+            animState = State.climbing;
+            rb.velocity = transform.up * climbSpeed;
+            moveSpeed = 0f;
+
+
+        }
+
+        else if (Input.GetKey(KeyCode.C))
+        {
+            //Test
+            //Debug.Log("Detected");
+            animState = State.hiding;
+            moveSpeed = 0f;
+    
         }
 
         else
@@ -162,6 +184,9 @@ public class PlayerMovement : MonoBehaviour
             // Debug.Log("Hit");
             Cbutton.SetActive(true);
         }
+
+            
+        
     }
 
     private void OnTriggerExit2D(Collider2D Collider)
@@ -178,6 +203,7 @@ public class PlayerMovement : MonoBehaviour
             // Debug.Log("Hit");
             Cbutton.SetActive(false);
         }
+
     }
 
    
