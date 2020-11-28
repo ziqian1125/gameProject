@@ -5,19 +5,22 @@ using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public GameObject Ebutton;
+    
     private Rigidbody2D rb;
     private Animator charAnim;
     [SerializeField] private float moveSpeed;
     public float runSpeed;
     [SerializeField] private float jumpSpeed;
+ 
     // idle = 0, walking = 1, jumping = 2 , etc
-    private enum State {idle, walking, jumping, falling, running, dancing};
+    private enum State {idle, walking, jumping, falling, running, dancing, climbing};
     private State animState = State.idle;
     private Collider2D coll;
     [SerializeField] private LayerMask ground;
     private int jumpcount;
 
+    public GameObject Ebutton;
+    public GameObject Cbutton;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,7 +31,8 @@ public class PlayerMovement : MonoBehaviour
         moveSpeed = 2f;
         runSpeed = 4f;
         Ebutton.SetActive(false);
-       jumpcount = 0;
+        Cbutton.SetActive(false);
+        jumpcount = 0;
     }
 
     // Update is called once per frame
@@ -75,11 +79,20 @@ public class PlayerMovement : MonoBehaviour
         {
             //  Debug.Log("Detected");
             animState = State.dancing;
+         
+        }
+        else if (Input.GetKey(KeyCode.C) && Cbutton.active)
+        {
+            //  Debug.Log("Detected");
+            animState = State.climbing;
+            //moveup code here
+
         }
 
         else
         {
             animState = State.idle;
+        
         }
 
 
@@ -111,14 +124,13 @@ public class PlayerMovement : MonoBehaviour
              jumpcount++;
              rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
              animState = State.jumping; 
-
-           
         }
 
         if (coll.IsTouchingLayers(ground))
         {
             jumpcount = 0;
-            Debug.Log("Jumpcount is" + jumpcount);
+            //Test
+            //Debug.Log("Jumpcount is" + jumpcount);
         }
 
 
@@ -141,9 +153,14 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D Collider)
     {
         if (Collider.gameObject.tag == "pole")
-        {
+        {   //Test
             // Debug.Log("Hit");
             Ebutton.SetActive(true);
+        }
+        if (Collider.gameObject.tag == "rope")
+        {   //Test
+            // Debug.Log("Hit");
+            Cbutton.SetActive(true);
         }
     }
 
@@ -151,8 +168,15 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Collider.gameObject.tag == "pole")
         {
+            //Test
             // Debug.Log("Hit");
             Ebutton.SetActive(false);
+        }
+        if (Collider.gameObject.tag == "rope")
+        {
+            //Test
+            // Debug.Log("Hit");
+            Cbutton.SetActive(false);
         }
     }
 
