@@ -18,7 +18,7 @@ public class SpawnBrick : MonoBehaviour
     private void spawnEnemy()
     {
         GameObject b = Instantiate(brickPrefab) as GameObject;
-        b.transform.position = new Vector2(Random.Range(-5, 2), 24);
+        b.transform.position = new Vector2(Random.Range(-6.5f, 10.5f), 24);
         b.transform.Rotate(Vector3.forward * Random.Range(90, -90));
     }
 

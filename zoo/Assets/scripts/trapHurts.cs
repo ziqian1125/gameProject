@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class brickHits : MonoBehaviour
+public class trapHurts : MonoBehaviour
 {
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player" && GameObject.Find("Player").GetComponent<PlayerMovement>().animState != PlayerMovement.State.hiding)
+        if (other.tag == "Player")
         {
-            Debug.Log("Player is hit with brick!");
+            Debug.Log("Player is hurt by trap!");
             GameObject.Find("Player").GetComponent<healthControl>().healthReduce();
         }
     }
