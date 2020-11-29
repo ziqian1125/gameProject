@@ -65,6 +65,7 @@
      <Compile Include="Assets\scripts\PlayerMovement.cs" />
      <Compile Include="Assets\scripts\SoundManagerScript.cs" />
      <Compile Include="Assets\scripts\SpawnBrick.cs" />
+     <Compile Include="Assets\scripts\SuccessPlayerMove.cs" />
      <Compile Include="Assets\scripts\brickHits.cs" />
      <Compile Include="Assets\scripts\cameracontrol.cs" />
      <Compile Include="Assets\scripts\collectfood.cs" />
