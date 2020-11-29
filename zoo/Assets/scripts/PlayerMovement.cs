@@ -114,8 +114,10 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animState = State.idle;
-        
+          
+
         }
+
 
 
 

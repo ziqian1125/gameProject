@@ -3309,8 +3309,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -343.8, y: -183.96}
-  m_SizeDelta: {x: 88.1391, y: 58.106003}
+  m_AnchoredPosition: {x: -268.08, y: -183.96}
+  m_SizeDelta: {x: 239.56958, y: 58.106003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1044628515
 MonoBehaviour:
@@ -4381,8 +4381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -343.8, y: -183.96}
-  m_SizeDelta: {x: 88.1391, y: 58.106003}
+  m_AnchoredPosition: {x: -268.08, y: -183.96}
+  m_SizeDelta: {x: 239.56958, y: 58.106003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1421304002
 MonoBehaviour:
@@ -4536,8 +4536,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.000005722, y: -0.00000023842}
+  m_SizeDelta: {x: 199.78479, y: 31.371288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1479397779
 MonoBehaviour:
@@ -4571,7 +4571,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hold F
+  m_Text: Hold F to Climb
 --- !u!222 &1479397780
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5691,8 +5691,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.000005722, y: -0.00000089407}
+  m_SizeDelta: {x: 249.13553, y: 29.999973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1770090181
 MonoBehaviour:
@@ -5726,7 +5726,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hold E
+  m_Text: Hold E to Entertain
 --- !u!222 &1770090182
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7204,25 +7204,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4879991232054188802, guid: 4020ddf9e3d6740ccbe001e2c7493047,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.48826128
-      objectReference: {fileID: 0}
-    - target: {fileID: 4879991232054188802, guid: 4020ddf9e3d6740ccbe001e2c7493047,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.5270312
-      objectReference: {fileID: 0}
     - target: {fileID: 4879991232054188803, guid: 4020ddf9e3d6740ccbe001e2c7493047,
         type: 3}
       propertyPath: m_Name
       value: crate
-      objectReference: {fileID: 0}
-    - target: {fileID: 4879991232054188803, guid: 4020ddf9e3d6740ccbe001e2c7493047,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4020ddf9e3d6740ccbe001e2c7493047, type: 3}
