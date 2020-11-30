@@ -46,8 +46,6 @@ public class entertainControl : MonoBehaviour
     {
         // print(Mathf.FloorToInt(Time.time));
 
-   
-
         if (entertain.text=="0")
             {
                 print("catch"); 
@@ -60,7 +58,23 @@ public class entertainControl : MonoBehaviour
                 entertainNum=int.Parse(entertain.text)-1;
                 entertain.text = entertainNum.ToString();
             }  
-        
-        
+
+        // print(Input.GetKey(KeyCode.E));
+
     }
+
+
+    void OnTriggerEnter2D(Collider2D collision) {
+
+        if (collision.tag == "pole")
+        {
+            if (Input.GetKey(KeyCode.E))
+                {
+                    entertainNum=int.Parse(entertain.text)+1;
+                    entertain.text = entertainNum.ToString(); 
+                    //KEY PRESSED AND HELD DOWN
+                }
+        }   
+    }
+
 }
