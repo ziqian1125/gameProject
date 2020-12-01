@@ -22,7 +22,7 @@ public class BrickMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y < screenBounds.y * -10)
+        if(transform.position.y < screenBounds.y * -20)
         {
             Destroy(this.gameObject);
         }
