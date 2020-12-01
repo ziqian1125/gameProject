@@ -82,7 +82,20 @@ public class entertainControl : MonoBehaviour
                     entertain.text = entertainNum.ToString(); 
                     //KEY PRESSED AND HELD DOWN
                 }
-        }   
+        } 
+        
+        if (collision.tag == "trap") //if player runs into trap
+        {
+            entertainNum = int.Parse(entertain.text) + 1;
+            entertain.text = entertainNum.ToString();
+        }
+        
+        if (collision.tag == "brick") //if player is hit with brick
+        {
+            entertainNum = int.Parse(entertain.text) + 1;
+            entertain.text = entertainNum.ToString();
+        }
     }
+
 
 }
