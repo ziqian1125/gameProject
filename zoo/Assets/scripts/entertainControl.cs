@@ -11,6 +11,7 @@ public class entertainControl : MonoBehaviour
     public Text entertain; 
     private int entertainNum;
     private int counttime=0;
+    public Transform leftpoint,rightpoint;
 
 
 
@@ -59,7 +60,14 @@ public class entertainControl : MonoBehaviour
                 entertain.text = entertainNum.ToString();
             }  
 
-        // print(Input.GetKey(KeyCode.E));
+        if( leftpoint.position.x<transform.position.x&&transform.position.x<rightpoint.position.x)
+        {
+            if(Input.GetKeyUp(KeyCode.E)){
+                entertainNum=int.Parse(entertain.text) + 1;
+                entertain.text = entertainNum.ToString();               
+            }
+        }
+        print(Input.GetKey(KeyCode.E));
 
     }
 
