@@ -12,10 +12,19 @@ public class Menu : MonoBehaviour
         InvokeRepeating("LoadScene", 2.0f, 0.3f);
     }
 
+    public void rules()
+    {      
+        SoundManagerScript.PlaySound("Button");
+        InvokeRepeating("goRules", 2.0f, 0.3f);
+    }  
+
     public void LoadScene(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void goRules(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
+    }
     // Update is called once per frame
     void Update()
     {

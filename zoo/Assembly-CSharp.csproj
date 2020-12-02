@@ -70,6 +70,7 @@
      <Compile Include="Assets\scripts\bgsound.cs" />
      <Compile Include="Assets\scripts\brickHits.cs" />
      <Compile Include="Assets\scripts\cameracontrol.cs" />
+     <Compile Include="Assets\scripts\changeGameRules.cs" />
      <Compile Include="Assets\scripts\changetext.cs" />
      <Compile Include="Assets\scripts\collectfood.cs" />
      <Compile Include="Assets\scripts\different ending\go0happyend.cs" />
