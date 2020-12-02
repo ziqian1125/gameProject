@@ -64,7 +64,8 @@ public class entertainControl : MonoBehaviour
         {
             if(Input.GetKeyUp(KeyCode.E)){
                 entertainNum=int.Parse(entertain.text) + 1;
-                entertain.text = entertainNum.ToString();               
+                entertain.text = entertainNum.ToString();
+                SoundManagerScript.PlaySound("clap");               
             }
         }
         print(Input.GetKey(KeyCode.E));

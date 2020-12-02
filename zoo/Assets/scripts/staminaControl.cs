@@ -28,23 +28,19 @@ public class staminaControl : MonoBehaviour
         {
             if (stamina.text!="0")
             {
-                //print("stamina is depleted "); 
-                // print(stamina.text.GetType());
                 staminaNum=int.Parse(stamina.text)-1;
                 stamina.text = staminaNum.ToString();
-                SoundManagerScript.PlaySound("Run");
             }
             //do stuff
         } 
 
-        if (Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D))
-        {
-            if (stamina.text!="0")
-            {
-              SoundManagerScript.PlaySound("clap");
-            }
-            //do stuff
-        }      
+        // if (Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D))
+        // {
+        //     if (stamina.text!="0")
+        //     {
+        //       SoundManagerScript.PlaySound("clap");
+        //     }
+        // }      
         
     }
 }
