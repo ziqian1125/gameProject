@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         charAnim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
 
-        moveSpeed = 6f;
+        moveSpeed = 3f;
         runSpeed = 8f;
         jumpSpeed = 6f;
         climbSpeed = 3f;
@@ -164,7 +164,7 @@ public class PlayerMovement : MonoBehaviour
 
         else
         {
-            moveSpeed = 2f;
+            moveSpeed = 3f;
         }
 
       
