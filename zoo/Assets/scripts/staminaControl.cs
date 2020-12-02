@@ -8,31 +8,38 @@ public class staminaControl : MonoBehaviour
 {
     // Start is called before the first frame update
     public int staminaNum;
-    public Text stamina; 
+    public Text stamina;
+    private int counttime = 0;
+    public GameObject NoStamina;
 
     void Start()
     {
-        
+        InvokeRepeating("countTime", .0f, 1f);
+        NoStamina = GameObject.Find("NoStamina");
+        NoStamina.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
 
     {
-        if (stamina.text=="0")
+        if (stamina.text == "0")
         {
-           print("die"); 
+            NoStamina.SetActive(true);
+        }
+        else
+        {
+            NoStamina.SetActive(false);
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift) ||Input.GetKeyUp(KeyCode.F) || Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.F) || Input.GetKeyUp(KeyCode.E))
         {
-            if (stamina.text!="0")
+            if (stamina.text != "0")
             {
-                staminaNum=int.Parse(stamina.text)-1;
+                staminaNum = int.Parse(stamina.text) - 1;
                 stamina.text = staminaNum.ToString();
             }
-            //do stuff
-        } 
+        }
 
         // if (Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D))
         // {
@@ -41,6 +48,24 @@ public class staminaControl : MonoBehaviour
         //       SoundManagerScript.PlaySound("clap");
         //     }
         // }      
-        
+
+    }
+    void countTime()
+    {
+        if (counttime != 3)
+        {
+            counttime = counttime + 1;
+        }
+        else
+        {
+            counttime = 0;
+
+            if (int.Parse(stamina.text) < 3)
+            {
+                staminaNum = int.Parse(stamina.text) + 1;
+                stamina.text = staminaNum.ToString();
+            }
+
+        }
     }
 }
