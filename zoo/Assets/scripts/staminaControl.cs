@@ -24,11 +24,11 @@ public class staminaControl : MonoBehaviour
            print("die"); 
         }
 
-        if (Input.GetKeyDown(KeyCode.A)||Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyUp(KeyCode.LeftShift) ||Input.GetKeyUp(KeyCode.F) || Input.GetKeyUp(KeyCode.E))
         {
             if (stamina.text!="0")
             {
-                print("stamina is depleted "); 
+                //print("stamina is depleted "); 
                 // print(stamina.text.GetType());
                 staminaNum=int.Parse(stamina.text)-1;
                 stamina.text = staminaNum.ToString();

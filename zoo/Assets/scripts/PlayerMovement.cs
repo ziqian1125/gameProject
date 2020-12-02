@@ -83,18 +83,16 @@ public class PlayerMovement : MonoBehaviour
             animState = State.walking;
           }
         }
-        else if (Input.GetKey(KeyCode.E) && Ebutton.active)
+        else if (Input.GetKey(KeyCode.E) && Ebutton.active && GetComponent<staminaControl>().stamina.text != "0")
         {
-            //Test
-            //Debug.Log("Detected");
+            //Player will dance if E is pressed and stamina is over 0
             animState = State.dancing;
             moveSpeed = 0f;
 
         }
-        else if (Input.GetKey(KeyCode.F) && Cbutton.active)
+        else if (Input.GetKey(KeyCode.F) && Cbutton.active && GetComponent<staminaControl>().stamina.text != "0")
         {
-            //Test
-            //Debug.Log("Detected");
+            //Player will climb if F is pressed and stamina is over 0
             animState = State.climbing;
             rb.velocity = transform.up * climbSpeed;
             moveSpeed = 0f;
