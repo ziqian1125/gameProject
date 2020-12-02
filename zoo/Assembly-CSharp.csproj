@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\firstscenesound.cs" />
      <Compile Include="Assets\garbage.cs" />
      <Compile Include="Assets\goentertainment.cs" />
      <Compile Include="Assets\move.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\scripts\different ending\gosuccessend.cs" />
      <Compile Include="Assets\scripts\enterDialog.cs" />
      <Compile Include="Assets\scripts\entertainControl.cs" />
+     <Compile Include="Assets\scripts\firstSceneMusic.cs" />
      <Compile Include="Assets\scripts\healthControl.cs" />
      <Compile Include="Assets\scripts\staminaControl.cs" />
      <Compile Include="Assets\scripts\trapHurts.cs" />

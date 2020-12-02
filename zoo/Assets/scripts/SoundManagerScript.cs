@@ -6,14 +6,19 @@ public class SoundManagerScript : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public static AudioClip fireworkSound,coinSound,clapSound;
+    public static AudioClip fireworkSound,coinSound,clapSound,BackgroundSound,RunSound,WalkSound;
     static AudioSource audioSrc;
 
     void Start()
     {
+
+        BackgroundSound = Resources.Load<AudioClip> ("Background");
         fireworkSound = Resources.Load<AudioClip>("fireworks");
         coinSound = Resources.Load<AudioClip>("coins");
         clapSound = Resources.Load<AudioClip>("clap");
+        RunSound = Resources.Load<AudioClip> ("Run");
+        WalkSound = Resources.Load<AudioClip> ("Walk");
+
 
         audioSrc = GetComponent<AudioSource>();
     }
@@ -35,7 +40,16 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "clap":
             audioSrc.PlayOneShot(clapSound);
-                break;                   
+                break;   
+            case "Background":
+            audioSrc.PlayOneShot(BackgroundSound);
+                break;
+            case "Run":
+                audioSrc.PlayOneShot(RunSound);
+                break;
+            case "Walk":
+                audioSrc.PlayOneShot(WalkSound);
+                break;
         }
         
     }
