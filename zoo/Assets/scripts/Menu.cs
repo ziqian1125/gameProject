@@ -7,7 +7,12 @@ public class Menu : MonoBehaviour
 {
     // Start is called before the first frame update
     public void PlayGame()
-    {
+    {      
+        SoundManagerScript.PlaySound("Button");
+        InvokeRepeating("LoadScene", 2.0f, 0.3f);
+    }
+
+    public void LoadScene(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
