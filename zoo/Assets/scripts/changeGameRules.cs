@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class changeGameRules : MonoBehaviour
 {
@@ -28,6 +30,17 @@ public class changeGameRules : MonoBehaviour
         "Your caretaker has accidentally left the cage door open. This is your chance to escape! Try to make it to the top of the cage by jumping and climbing. Don’t forget to balance your stamina and keep the audience entertained at the same time. Also, watch out for those traps and falling rocks!";                      
         }
 
+    }
+
+
+    // public void back()
+    // {      
+    //     SoundManagerScript.PlaySound("Button");
+    //     InvokeRepeating("goback", 2.0f, 0.3f);
+    // }  
+
+    public void goback(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 6);
     }
 
     void Start()
