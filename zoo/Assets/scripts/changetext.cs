@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- using UnityEngine.UI;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class changetext : MonoBehaviour
@@ -29,6 +30,12 @@ public class changetext : MonoBehaviour
         "Most people like going to the zoo, circus or aquariums, especially with the kids. We think that these facilities are entertaining, educational and exist with the best interest of animals in mind. However, animals in captivity statistics hide the harsh truth about the environment and treatment of captive animals. And here are some numbers. 96 % – it is a chance that an elephant is treated poorly in the zoo. 75 % – it is the number of animal abuse in the world zoos and aquariums. 30 % – it is the number of aquariums and zoos that make animals perform in front of people.";          
         }
     }
+
+
+    public void restart(){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
+
     void Start()
     {
         
