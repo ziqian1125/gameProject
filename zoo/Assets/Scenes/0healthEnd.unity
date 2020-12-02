@@ -280,7 +280,7 @@ Transform:
   m_GameObject: {fileID: 145186410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.43, y: -0.53, z: 0}
-  m_LocalScale: {x: 0.7069023, y: 0.7734375, z: 1}
+  m_LocalScale: {x: 0.82177395, y: 0.8701172, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -298,7 +298,7 @@ GameObject:
   - component: {fileID: 614458451}
   - component: {fileID: 614458450}
   m_Layer: 5
-  m_Name: Button
+  m_Name: next
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -321,7 +321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69.1, y: -297}
+  m_AnchoredPosition: {x: 69.1, y: -248}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &614458450
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 40
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 50
@@ -753,9 +753,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'you failed to make the people happy.
-
-    You are now fed to lions.'
+  m_Text: "Life in a cage is tough, isn\u2019t it? The visitors enjoyed your suffering,
+    but will now sadly have to go and see other creatures."
 --- !u!222 &1274084854
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1041,7 +1040,7 @@ GameObject:
   - component: {fileID: 1550924229}
   - component: {fileID: 1550924228}
   m_Layer: 5
-  m_Name: Button
+  m_Name: restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1056,7 +1055,7 @@ RectTransform:
   m_GameObject: {fileID: 1550924226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.69876075, y: 1.9453713, z: 1}
+  m_LocalScale: {x: 0.960796, y: 2.7721539, z: 1}
   m_Children:
   - {fileID: 1099456303}
   m_Father: {fileID: 932326174}
@@ -1064,7 +1063,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 205.1, y: -296.6}
+  m_AnchoredPosition: {x: 448, y: -179}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1550924228
@@ -1109,7 +1108,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1550924229}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 932326175}
+        m_MethodName: healthrestart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1550924229
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -36,6 +36,18 @@ public class changetext : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
     }
 
+    public void healthrestart(){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+    }
+
+    public void happyrestart(){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+    }
+
+    public void timerestart(){
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
     void Start()
     {
         
