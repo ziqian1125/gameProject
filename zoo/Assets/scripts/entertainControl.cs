@@ -12,8 +12,8 @@ public class entertainControl : MonoBehaviour
     private int entertainNum;
     private int counttime=0;
     public Transform leftpoint,rightpoint;
-
-
+    public Transform left1,right1;
+    public Transform left2,right2;
 
     void Start()
     {
@@ -68,7 +68,25 @@ public class entertainControl : MonoBehaviour
                 SoundManagerScript.PlaySound("clap");               
             }
         }
-        print(Input.GetKey(KeyCode.E));
+
+
+        if( left1.position.x<transform.position.x&&transform.position.x<right1.position.x)
+        {
+            if(Input.GetKeyUp(KeyCode.E)){
+                entertainNum=int.Parse(entertain.text) + 1;
+                entertain.text = entertainNum.ToString();
+                SoundManagerScript.PlaySound("clap");               
+            }
+        }
+
+        if( left2.position.x<transform.position.x&&transform.position.x<right2.position.x)
+        {
+            if(Input.GetKeyUp(KeyCode.E)){
+                entertainNum=int.Parse(entertain.text) + 1;
+                entertain.text = entertainNum.ToString();
+                SoundManagerScript.PlaySound("clap");               
+            }
+        }
 
     }
 
