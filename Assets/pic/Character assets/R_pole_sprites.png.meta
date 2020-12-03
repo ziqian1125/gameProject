@@ -1,0 +1,1841 @@
+fileFormatVersion: 2
+guid: 68b07e087f6291a4bbcec4efbda4d7bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3897839618049507052
+    second: R_pole_sprites_0
+  - first:
+      213: 4801570109503360257
+    second: R_pole_sprites_1
+  - first:
+      213: -441343786829172377
+    second: R_pole_sprites_2
+  - first:
+      213: 8327869295652672946
+    second: R_pole_sprites_3
+  - first:
+      213: -6128016787762401592
+    second: R_pole_sprites_4
+  - first:
+      213: -8088382207420533855
+    second: R_pole_sprites_5
+  - first:
+      213: 6291089268599334946
+    second: R_pole_sprites_6
+  - first:
+      213: -2210236760968361922
+    second: R_pole_sprites_7
+  - first:
+      213: -2022112958600370188
+    second: R_pole_sprites_8
+  - first:
+      213: 5923052292366805560
+    second: R_pole_sprites_9
+  - first:
+      213: -15607319542303003
+    second: R_pole_sprites_10
+  - first:
+      213: -217055404850627008
+    second: R_pole_sprites_11
+  - first:
+      213: -6905122797229268331
+    second: R_pole_sprites_12
+  - first:
+      213: 6801461083610759136
+    second: R_pole_sprites_13
+  - first:
+      213: 8437520441009236170
+    second: R_pole_sprites_14
+  - first:
+      213: -8753744852955770207
+    second: R_pole_sprites_15
+  - first:
+      213: -6399477014494348123
+    second: R_pole_sprites_16
+  - first:
+      213: 4727485279432733634
+    second: R_pole_sprites_17
+  - first:
+      213: -8967380119348146591
+    second: R_pole_sprites_18
+  - first:
+      213: -2018053503846382885
+    second: R_pole_sprites_19
+  - first:
+      213: -5901395097331179895
+    second: R_pole_sprites_20
+  - first:
+      213: 4892580169081350315
+    second: R_pole_sprites_21
+  - first:
+      213: 8735472936050099857
+    second: R_pole_sprites_22
+  - first:
+      213: 6768255809734762482
+    second: R_pole_sprites_23
+  - first:
+      213: 7076326318289273473
+    second: R_pole_sprites_24
+  - first:
+      213: -1596634817047863741
+    second: R_pole_sprites_25
+  - first:
+      213: -653781438081869999
+    second: R_pole_sprites_26
+  - first:
+      213: -6885892551993641376
+    second: R_pole_sprites_27
+  - first:
+      213: -4373936710033494867
+    second: R_pole_sprites_28
+  - first:
+      213: 6780220686485531777
+    second: R_pole_sprites_29
+  - first:
+      213: 2718596834686281632
+    second: R_pole_sprites_30
+  - first:
+      213: -2302346571662008215
+    second: R_pole_sprites_31
+  - first:
+      213: 2576715091339954606
+    second: R_pole_sprites_32
+  - first:
+      213: 1621158131735669248
+    second: R_pole_sprites_33
+  - first:
+      213: -2678353717946814082
+    second: R_pole_sprites_34
+  - first:
+      213: 2118146664601725232
+    second: R_pole_sprites_35
+  - first:
+      213: 5614380958476898685
+    second: R_pole_sprites_36
+  - first:
+      213: -7267354283033667205
+    second: R_pole_sprites_37
+  - first:
+      213: -5811077391353174915
+    second: R_pole_sprites_38
+  - first:
+      213: 7596695704577957189
+    second: R_pole_sprites_39
+  - first:
+      213: -494561079346170541
+    second: R_pole_sprites_40
+  - first:
+      213: -3220101913267413825
+    second: R_pole_sprites_41
+  - first:
+      213: -7581660834924595235
+    second: R_pole_sprites_42
+  - first:
+      213: 264025081048393378
+    second: R_pole_sprites_43
+  - first:
+      213: 3639535786720445329
+    second: R_pole_sprites_44
+  - first:
+      213: 4370393554124314360
+    second: R_pole_sprites_45
+  - first:
+      213: -3622943756720299174
+    second: R_pole_sprites_46
+  - first:
+      213: -2517939710879538987
+    second: R_pole_sprites_47
+  - first:
+      213: 4837272672438497407
+    second: R_pole_sprites_48
+  - first:
+      213: -2465602293732912200
+    second: R_pole_sprites_49
+  - first:
+      213: -4709719174634929371
+    second: R_pole_sprites_50
+  - first:
+      213: 7907014907112369968
+    second: R_pole_sprites_51
+  - first:
+      213: -3291832008703363296
+    second: R_pole_sprites_52
+  - first:
+      213: -7110504446183924547
+    second: R_pole_sprites_53
+  - first:
+      213: 7283134837881242579
+    second: R_pole_sprites_54
+  - first:
+      213: 3336168520501679830
+    second: R_pole_sprites_55
+  - first:
+      213: 5571796195212972815
+    second: R_pole_sprites_56
+  - first:
+      213: -9099643402634938538
+    second: R_pole_sprites_57
+  - first:
+      213: 7771934256042764680
+    second: R_pole_sprites_58
+  - first:
+      213: -4805103206682865347
+    second: R_pole_sprites_59
+  - first:
+      213: -892354798959844176
+    second: R_pole_sprites_60
+  - first:
+      213: -6371390842518481520
+    second: R_pole_sprites_61
+  - first:
+      213: 7931678439443300928
+    second: R_pole_sprites_62
+  - first:
+      213: 2268416231872729819
+    second: R_pole_sprites_63
+  - first:
+      213: 1487869038115787729
+    second: R_pole_sprites_64
+  - first:
+      213: -3308971094776659392
+    second: R_pole_sprites_65
+  - first:
+      213: 3415356984152888155
+    second: R_pole_sprites_66
+  - first:
+      213: -6373340051187538262
+    second: R_pole_sprites_0
+  - first:
+      213: -1739249682881635551
+    second: R_pole_sprites_1
+  - first:
+      213: 1190504605922537778
+    second: R_pole_sprites_2
+  - first:
+      213: 1795993443480785317
+    second: R_pole_sprites_3
+  - first:
+      213: 5081890406215770754
+    second: R_pole_sprites_4
+  - first:
+      213: 5183254641403167022
+    second: R_pole_sprites_5
+  - first:
+      213: -461212834148265113
+    second: R_pole_sprites_6
+  - first:
+      213: 6546559283168435043
+    second: R_pole_sprites_7
+  - first:
+      213: 7797260737546817509
+    second: R_pole_sprites_8
+  - first:
+      213: 229291083280394088
+    second: R_pole_sprites_9
+  - first:
+      213: 712802885118042703
+    second: R_pole_sprites_10
+  - first:
+      213: -94490703546484168
+    second: R_pole_sprites_11
+  - first:
+      213: -8426350597973013837
+    second: R_pole_sprites_12
+  - first:
+      213: -1309380992443935701
+    second: R_pole_sprites_13
+  - first:
+      213: -8105865993006198793
+    second: R_pole_sprites_14
+  - first:
+      213: -7340579960563153021
+    second: R_pole_sprites_15
+  - first:
+      213: -1294646270174251061
+    second: R_pole_sprites_16
+  - first:
+      213: 5962597071181180884
+    second: R_pole_sprites_17
+  - first:
+      213: 3457123513891017854
+    second: R_pole_sprites_18
+  - first:
+      213: 448244737537543427
+    second: R_pole_sprites_19
+  - first:
+      213: 4073624856404779258
+    second: R_pole_sprites_20
+  - first:
+      213: 198865298076283318
+    second: R_pole_sprites_21
+  - first:
+      213: 6977893040076665989
+    second: R_pole_sprites_22
+  - first:
+      213: 4550374442188648703
+    second: R_pole_sprites_23
+  - first:
+      213: -2445042619411117670
+    second: R_pole_sprites_24
+  - first:
+      213: 1943908763122648382
+    second: R_pole_sprites_25
+  - first:
+      213: -4398222823819333280
+    second: R_pole_sprites_26
+  - first:
+      213: 402478229629421009
+    second: R_pole_sprites_27
+  - first:
+      213: 2948751118855528333
+    second: R_pole_sprites_28
+  - first:
+      213: -6923274485095646115
+    second: R_pole_sprites_29
+  - first:
+      213: -428444315968594628
+    second: R_pole_sprites_30
+  - first:
+      213: 8132301969248626439
+    second: R_pole_sprites_31
+  - first:
+      213: 7459172134263878963
+    second: R_pole_sprites_32
+  - first:
+      213: 915119705386324675
+    second: R_pole_sprites_33
+  - first:
+      213: 957922052257310467
+    second: R_pole_sprites_34
+  - first:
+      213: 7477714523413663649
+    second: R_pole_sprites_35
+  - first:
+      213: 1525488984835249756
+    second: R_pole_sprites_36
+  - first:
+      213: -7337662781018750312
+    second: R_pole_sprites_37
+  - first:
+      213: -1928185936484413558
+    second: R_pole_sprites_38
+  - first:
+      213: 7666823406467895382
+    second: R_pole_sprites_39
+  - first:
+      213: 155516061031251380
+    second: R_pole_sprites_40
+  - first:
+      213: -2118886228910314633
+    second: R_pole_sprites_41
+  - first:
+      213: -3032489518878426686
+    second: R_pole_sprites_42
+  - first:
+      213: 7444342453378940325
+    second: R_pole_sprites_43
+  - first:
+      213: -3080531432761494035
+    second: R_pole_sprites_44
+  - first:
+      213: 8812839261444431230
+    second: R_pole_sprites_45
+  - first:
+      213: 2725902812345807484
+    second: R_pole_sprites_46
+  - first:
+      213: 3061038690992061553
+    second: R_pole_sprites_47
+  - first:
+      213: -1691645081017891593
+    second: R_pole_sprites_48
+  - first:
+      213: -5063086354221409577
+    second: R_pole_sprites_49
+  - first:
+      213: 1241706572345922635
+    second: R_pole_sprites_50
+  - first:
+      213: -2941411509239352043
+    second: R_pole_sprites_51
+  - first:
+      213: 8615147302702771780
+    second: R_pole_sprites_52
+  - first:
+      213: 4984431454721893037
+    second: R_pole_sprites_53
+  - first:
+      213: 5531063796789065443
+    second: R_pole_sprites_54
+  - first:
+      213: -5574715268688034264
+    second: R_pole_sprites_55
+  - first:
+      213: 8798846169651575956
+    second: R_pole_sprites_56
+  - first:
+      213: -3048459663839128573
+    second: R_pole_sprites_57
+  - first:
+      213: 7860873896522762237
+    second: R_pole_sprites_58
+  - first:
+      213: -6173228202678050365
+    second: R_pole_sprites_59
+  - first:
+      213: 2460961827786751825
+    second: R_pole_sprites_60
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: R_pole_sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa66238adf85d87a0800000000000000
+      internalID: -6373340051187538262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 8000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b112cd0a1fcd7e0800000000000000
+      internalID: -1739249682881635551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 8000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231ba7ba1a5858010800000000000000
+      internalID: 1190504605922537778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a15a917586ace810800000000000000
+      internalID: 1795993443480785317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 8000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282e4f14660868640800000000000000
+      internalID: 5081890406215770754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 8000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e210b3162ae9ee740800000000000000
+      internalID: 5183254641403167022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763ddb6fe517999f0800000000000000
+      internalID: -461212834148265113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_7
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 7200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b5a4e9bfc0ada50800000000000000
+      internalID: 6546559283168435043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_8
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 7200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef0492445f653c60800000000000000
+      internalID: 7797260737546817509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_9
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867a711860b9e2300800000000000000
+      internalID: 229291083280394088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_10
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42a55a827264e900800000000000000
+      internalID: 712802885118042703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_11
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83af88ca43d40bef0800000000000000
+      internalID: -94490703546484168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba0bee96c69f0b80800000000000000
+      internalID: -8426350597973013837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 6400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b241bbdbce424dde0800000000000000
+      internalID: -1309380992443935701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 6400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff42f973dd228f80800000000000000
+      internalID: -8105865993006198793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_15
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387484dfa65012a90800000000000000
+      internalID: -7340579960563153021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_16
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7ba7c931e780ee0800000000000000
+      internalID: -1294646270174251061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_17
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfe98ee1766fb250800000000000000
+      internalID: 5962597071181180884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74df1ee48b2aff20800000000000000
+      internalID: 3457123513891017854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_19
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d0d51c63c783600800000000000000
+      internalID: 448244737537543427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_20
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af06532593c688830800000000000000
+      internalID: 4073624856404779258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_21
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b13df95fe282c200800000000000000
+      internalID: 198865298076283318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_22
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584b07edfb476d060800000000000000
+      internalID: 6977893040076665989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_23
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0bbad327d262f30800000000000000
+      internalID: 4550374442188648703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a994f4921b6711ed0800000000000000
+      internalID: -2445042619411117670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_25
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35c1b588b62afa10800000000000000
+      internalID: 1943908763122648382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_26
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061bb3ff4af56f2c0800000000000000
+      internalID: -4398222823819333280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_27
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5c3e241d3e59500800000000000000
+      internalID: 402478229629421009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_28
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f5b6af4811ce820800000000000000
+      internalID: 2948751118855528333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_29
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c395179869bef90800000000000000
+      internalID: -6923274485095646115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d18a42a2cdd0af0800000000000000
+      internalID: -428444315968594628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_31
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7072643ed8dbbd070800000000000000
+      internalID: 8132301969248626439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_32
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3357a45298d448760800000000000000
+      internalID: 7459172134263878963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_33
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c21386068823bc00800000000000000
+      internalID: 915119705386324675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_34
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3076f4ff7093b4d00800000000000000
+      internalID: 957922052257310467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_35
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4000
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1afc9db8dbd26c760800000000000000
+      internalID: 7477714523413663649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5650e93620ab2510800000000000000
+      internalID: 1525488984835249756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892c5c7c3926b2a90800000000000000
+      internalID: -7337662781018750312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_38
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f41f25b15bd35e0800000000000000
+      internalID: -1928185936484413558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_39
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6505b228447066a60800000000000000
+      internalID: 7666823406467895382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_40
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdb2a69801882200800000000000000
+      internalID: 155516061031251380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_41
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3200
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b655e73343892e0800000000000000
+      internalID: -2118886228910314633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9f72279de6ae5d0800000000000000
+      internalID: -3032489518878426686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_43
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adf200050e9f4760800000000000000
+      internalID: 7444342453378940325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de573d6bbf0cf35d0800000000000000
+      internalID: -3080531432761494035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_45
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd209ad9e7d4a70800000000000000
+      internalID: 8812839261444431230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_46
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c723c165a2a54d520800000000000000
+      internalID: 2725902812345807484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_47
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2400
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cfe4ca87efa7a20800000000000000
+      internalID: 3061038690992061553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f444e3f2c11688e0800000000000000
+      internalID: -1691645081017891593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_49
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da518549cd4cb9b0800000000000000
+      internalID: -5063086354221409577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_50
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4452f77c8d6b3110800000000000000
+      internalID: 1241706572345922635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_51
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515fa8d01d10e27d0800000000000000
+      internalID: -2941411509239352043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_52
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e6349a3d62f8770800000000000000
+      internalID: 8615147302702771780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_53
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1600
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da26bf9dff14c2540800000000000000
+      internalID: 4984431454721893037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6b2a5e73942cc40800000000000000
+      internalID: 5531063796789065443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_55
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82647edcff1a2a2b0800000000000000
+      internalID: -5574715268688034264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_56
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c736719f7cb1a70800000000000000
+      internalID: 8798846169651575956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_57
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30413c05612b1b5d0800000000000000
+      internalID: -3048459663839128573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_58
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df74162092f671d60800000000000000
+      internalID: 7860873896522762237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_59
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 800
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1a3f528a9445aa0800000000000000
+      internalID: -6173228202678050365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: R_pole_sprites_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f760f5eb7172220800000000000000
+      internalID: 2460961827786751825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
