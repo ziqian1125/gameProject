@@ -21,7 +21,7 @@ public class changeGameRules : MonoBehaviour
         if(buttonText.text == "next"){
            buttonText.text = "previous";
            content.text =
-        "walking = A/D\nsprinting = shift + A/D\njumping = space\ndouble jump = press space twice\nclimbing = F\ninteracting with pole = E\nprotect = C";        
+        "walking = A/D\nsprinting = shift + A/D\njumping = space\ndouble jump = press space twice\nclimbing = F\ninteracting with pole = E\ncrouching = C";        
         
         }else
         {
