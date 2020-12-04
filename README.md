@@ -20,7 +20,7 @@ Keeping up people’s happiness, managing stamina, completing obstacle course in
 ## Main activities
 Walking, jumping, running, climbing - all this to complete the obstacle course. Additionally: dancing and collecting health upgrades.
 
-## Victory Conditions
+## Victory conditions
 There are several ways for the game to end: losing all happiness, time running out, dying or reaching the hatch in the ceiling in time to escape. All these ways will end the game and each has a different end result for the player. Try to get them all!
 
 ## Target audience
