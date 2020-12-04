@@ -5,6 +5,7 @@ using UnityEngine;
 public class brickHits : MonoBehaviour
 {
 
+    //If brick hits a player who is not hiding, it will reduce health
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player" && GameObject.Find("Player").GetComponent<PlayerMovement>().animState != PlayerMovement.State.hiding)

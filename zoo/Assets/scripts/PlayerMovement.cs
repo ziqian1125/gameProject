@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
           
         }
        
-        else if (Mathf.Abs(rb.velocity.x) > 1.8f)
+        else if (Mathf.Abs(rb.velocity.x) > 0f)
         {
             if (Mathf.Abs(rb.velocity.x) > 3f)
              {

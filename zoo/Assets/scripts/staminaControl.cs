@@ -14,7 +14,10 @@ public class staminaControl : MonoBehaviour
 
     void Start()
     {
+        //Increase stamina over time
         InvokeRepeating("countTime", .0f, 1f);
+
+        //don't show 'out of stamina' message on start
         NoStamina = GameObject.Find("NoStamina");
         NoStamina.SetActive(false);
     }
@@ -25,13 +28,16 @@ public class staminaControl : MonoBehaviour
     {
         if (stamina.text == "0")
         {
+            //show message if stamina is depleted
             NoStamina.SetActive(true);
         }
         else
         {
+            //don't show message if there is some stamina
             NoStamina.SetActive(false);
         }
 
+        //reduce stamina when character runs, climbs, dances
         if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.F) || Input.GetKeyUp(KeyCode.E))
         {
             if (stamina.text != "0")
@@ -40,14 +46,6 @@ public class staminaControl : MonoBehaviour
                 stamina.text = staminaNum.ToString();
             }
         }
-
-        // if (Input.GetKeyUp(KeyCode.A)||Input.GetKeyUp(KeyCode.D))
-        // {
-        //     if (stamina.text!="0")
-        //     {
-        //       SoundManagerScript.PlaySound("clap");
-        //     }
-        // }      
 
     }
     void countTime()
@@ -60,6 +58,7 @@ public class staminaControl : MonoBehaviour
         {
             counttime = 0;
 
+            //increase stamina over time if not full
             if (int.Parse(stamina.text) < 3)
             {
                 staminaNum = int.Parse(stamina.text) + 1;
