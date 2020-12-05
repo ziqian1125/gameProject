@@ -25,6 +25,11 @@ public class Menu : MonoBehaviour
     public void goRules(){
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
     }
+
+    public void quit(){
+        Application.Quit();
+    }
+
     // Update is called once per frame
     void Update()
     {
