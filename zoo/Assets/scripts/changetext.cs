@@ -49,12 +49,11 @@ public class changetext : MonoBehaviour
     }
 
     public void quit(){
-
+        Application.Quit();
     }
 
     void Start()
     {
-        Application.Quit();
     }
 
     // Update is called once per frame
