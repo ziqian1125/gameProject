@@ -5,6 +5,16 @@
 
 You play as a humanoid creature in captivity and you pass your days entertaining your audience and just plain surviving. However, on one day, your caretaker has accidentally left the cage door open. This is your chance to escape! Try to make it to the top of the cage by jumping and climbing, while avoiding slipping on trash. Don’t forget to balance your stamina and keep the audience entertained at the same time. Also, watch out for those traps and falling rocks!
 
+## Important links
+:sparkles:**[Download the game!](https://github.com/ziqian1125/gameProject/releases/download/v1.0/Caged.zip)**:sparkles:
+
+[Watch the trailer](https://youtu.be/raurvWS0tCc)
+
+[Watch the team explaining their tasks](https://youtu.be/0todTfiZTsM)
+
+
+# About the game
+
 ## Genre  
 2D platformer, horror
 
