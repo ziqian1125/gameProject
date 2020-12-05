@@ -48,9 +48,13 @@ public class changetext : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
+    public void quit(){
+
+    }
+
     void Start()
     {
-        
+        Application.Quit();
     }
 
     // Update is called once per frame
